@@ -14,7 +14,7 @@ void createSL(){
         for (int j = 1; j <= n; ++j) {
             if (j != i){
                 A1[i][j] = A[i][j];
-                A2[i][j] = A[i][j];
+                A2[i][j] = -A[i][j];
             }
             if (j == i){
                 A1[i][j] = A[i][j] + 1;
@@ -27,6 +27,7 @@ void createSL(){
 // Hàm chọn ma trận Alpha từ 1 trong 2 cách tính, từ đó xác định ma trận beta
 void chooseMatrix(int choose){
     createSL();
+    float maxA,maxB;
     switch (choose) {
         case 1:
             for (int i = 1; i <= n; ++i) {
@@ -120,7 +121,8 @@ float getNormVector(int choose){
 
 // Hàm thực hiện lặp đơn, nMC: normMatrixCheck, nMI: normMatrixIndex
 void singleLoop(){
-    float nMC,saiSo,XC[10],XC1[10];
+    toiGianHeSo();
+    float nMC,saiSo,XC[10],XC1[10],temp;
     int nMI = 0;
     chooseMatrix(1);
     for (int i = 1; i <= 3; ++i) {
@@ -134,7 +136,6 @@ void singleLoop(){
         chooseMatrix(2);
         for (int i = 1; i <= 3; ++i) {
             nMC = getNormMatrix(i);
-            printf("nmc = %f\n",nMC);
             if (nMC < 1){
                 nMI = i;
                 break;
@@ -144,15 +145,18 @@ void singleLoop(){
             printf("Err, norm of matrix is greater than 1!!");
         }
     }
-    saiSo = getNormMatrix(nMI) / (1 - getNormMatrix(nMI));
+    temp = getNormMatrix(nMI) / (1 - getNormMatrix(nMI));
     for (int i = 1; i <= n; ++i) {
         XC[i] = BS[i];
     }
+    saiSo = temp;
     while (saiSo >= esl){
         for (int i = 1; i <= n; ++i) {
+            XC1[i] = 0;
             for (int j = 1; j <= n; ++j) {
-                XC1[i] = AC[i][j] * XC[j];
+                XC1[i] = XC1[i] + AC[i][j] * XC[j];
             }
+            XC1[i] = XC1[i] + BS[i];
         }
         for (int i = 1; i <= n; ++i) {
             XI[i] = XC1[i] - XC[i];
@@ -160,12 +164,15 @@ void singleLoop(){
         for (int i = 1; i <= n; ++i) {
             XC[i] = XC1[i];
         }
-        saiSo = getNormVector(2);
-        printf("%f\n",saiSo);
+        saiSo = temp * getNormVector(nMI);
+        for (int i = 1; i <= n; ++i) {
+            printf("X[%d] = %f\n",i,XC1[i]);
+        }
+        printf("-======================================-\n");
+
     }
     for (int i = 1; i <= n; ++i) {
-        X[i] = XC[i];
+        X[i] = XC1[i];
     }
-
 }
 #endif //MYGAUSS_SINGLELOOP_H

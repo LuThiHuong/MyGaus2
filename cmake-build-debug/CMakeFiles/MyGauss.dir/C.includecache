@@ -10,6 +10,8 @@ C:/Users/TuanAnh/CLionProjects/MyGauss/cholesky.h
 
 C:/Users/TuanAnh/CLionProjects/MyGauss/gaussGJ.h
 
+C:/Users/TuanAnh/CLionProjects/MyGauss/jacobi.h
+
 C:/Users/TuanAnh/CLionProjects/MyGauss/main.c
 stdio.h
 -
@@ -29,6 +31,8 @@ gaussGJ.h
 C:/Users/TuanAnh/CLionProjects/MyGauss/gaussGJ.h
 singleLoop.h
 C:/Users/TuanAnh/CLionProjects/MyGauss/singleLoop.h
+jacobi.h
+C:/Users/TuanAnh/CLionProjects/MyGauss/jacobi.h
 
 C:/Users/TuanAnh/CLionProjects/MyGauss/matrix.h
 

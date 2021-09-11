@@ -1,4 +1,4 @@
-C:\Users\TuanAnh\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\TuanAnh\CLionProjects\MyGauss
+C:\Users\TuanAnh\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\TuanAnh\CLionProjects\MyGauss
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug

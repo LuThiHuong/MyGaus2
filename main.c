@@ -14,35 +14,21 @@
 #include "cholesky.h"
 #include "gaussGJ.h"
 #include "singleLoop.h"
+#include "jacobi.h"
 
 void main() {
-    n = 3;
-    A[1][1] = 1;
-    A[1][2] = 0.4;
-    A[1][3] = -0.3;
-    A[2][1] = 0.3;
-    A[2][2] = 1.1;
-    A[2][3] = -0.3;
-    A[3][1] = 0.2;
-    A[3][2] = -0.1;
-    A[3][3] = 1.3;
-    B[1] = 0.5;
-    B[2] = 0.4;
-    B[3] = 0.12;
+    FILE *fin;
+    fin = fopen("C:\\Users\\TuanAnh\\CLionProjects\\MyGauss\\input.txt","r");
+    fscanf(fin,"%d\n",&n);
 
-
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 1; j <= n; ++j) {
+            fscanf(fin,"%f\n",&A[i][j]) ;
+        }
+    }
     inMaTranHeSo();
     printf("-=====================================================- \n");
-    chooseMatrix(2);
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n; j++) {
-            printf("%lf \t", AC[i][j]);
-        }
-        printf("\n");
-    }
-    for (int i = 1; i <=3 ; ++i) {
-        printf("norm = %f\n", getNormMatrix(i));
-    }
-    singleLoop();
-    inNghiem();
+    khuGauss(n);
+    inMaTranHeSo();
+    fclose(fin);
 }

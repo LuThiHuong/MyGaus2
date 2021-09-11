@@ -3,4 +3,4 @@ project(MyGauss C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(MyGauss main.c matrix.h cholesky.h gaussGJ.h singleLoop.h)
+add_executable(MyGauss main.c matrix.h cholesky.h gaussGJ.h singleLoop.h jacobi.h seidel.h)

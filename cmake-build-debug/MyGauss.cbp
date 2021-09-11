@@ -80,10 +80,16 @@
 		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/gaussGJ.h">
 			<Option target="MyGauss"/>
 		</Unit>
+		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/jacobi.h">
+			<Option target="MyGauss"/>
+		</Unit>
 		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/main.c">
 			<Option target="MyGauss"/>
 		</Unit>
 		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/matrix.h">
+			<Option target="MyGauss"/>
+		</Unit>
+		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/seidel.h">
 			<Option target="MyGauss"/>
 		</Unit>
 		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/singleLoop.h">

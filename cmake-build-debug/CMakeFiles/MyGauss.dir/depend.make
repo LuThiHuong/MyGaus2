@@ -4,6 +4,7 @@
 CMakeFiles/MyGauss.dir/main.c.obj: \
  ../cholesky.h \
  ../gaussGJ.h \
+ ../jacobi.h \
  ../main.c \
  ../matrix.h \
  ../singleLoop.h

@@ -6,6 +6,7 @@
 #define MYGAUSS_GAUSSGJ_H
 // Hàm biến đổi ma trận bổ sung ban đầu về ma trận bậc thang sử dụng thuật toán khử Gauss
 void khuGauss(int n) {
+    bienAThanhMatranBoSung();
     float t;
     for (int i = 1; i <= n; i++) {
         if (A[i][i] == 0) {
@@ -23,6 +24,7 @@ void khuGauss(int n) {
 
 // Hàm biến đổi ma trận bổ sung dùng thuật toán Gauss-Jordan
 void gaussJordan(int n){
+    bienAThanhMatranBoSung();
     float t;
     for (int i = 1; i <= n; ++i) {
         if (A[i][i] == 0){

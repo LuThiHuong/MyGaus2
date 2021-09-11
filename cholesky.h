@@ -4,6 +4,7 @@
 
 #ifndef MYGAUSS_CHOLESKY_H
 #define MYGAUSS_CHOLESKY_H
+
 // Hàm kiểm tra tính đối xứng của ma trận
 bool checkSymetric(int n){
     bool check = true;
