@@ -26,9 +26,15 @@ void main() {
             fscanf(fin,"%f\n",&A[i][j]) ;
         }
     }
+    for (int i = 1; i <= n; ++i) {
+        fscanf(fin,"%f\n",&B[i]);
+    }
+
     inMaTranHeSo();
     printf("-=====================================================- \n");
     khuGauss(n);
-    inMaTranHeSo();
+    inMaTranBoSung();
+    giaiHeGauss(n);
+    inNghiem();
     fclose(fin);
 }

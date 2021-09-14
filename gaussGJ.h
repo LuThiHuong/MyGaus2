@@ -32,7 +32,7 @@ void gaussJordan(int n){
             exit(0);
         }
         for (int j = 1; j <= n ; ++j) {
-            if (j != i){
+            if (i != j){
                 t = A[j][i] / A[i][i];
                 for (int k = 1; k <= n+1; ++k) {
                     A[j][k] = A[j][k] - t * A[i][k];
