@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyGauss.dir/main.c.obj"
+  "CMakeFiles/MyGauss.dir/main.c.obj.d"
   "MyGauss.exe"
   "MyGauss.exe.manifest"
   "MyGauss.pdb"

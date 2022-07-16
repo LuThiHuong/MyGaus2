@@ -1,6 +1,4 @@
-//
-// Created by TuanAnh on 8/17/2021.
-//
+
 
 #ifndef MYGAUSS_GAUSSGJ_H
 #define MYGAUSS_GAUSSGJ_H

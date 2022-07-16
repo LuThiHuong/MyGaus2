@@ -8,94 +8,96 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MyGauss">
-				<Option output="C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/MyGauss.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug"/>
+				<Option output="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/MyGauss.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Lu Thi Huong/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Lu Thi Huong/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Lu Thi Huong/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Lu Thi Huong/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGauss"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGauss"/>
+					<CompileFile command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MyGauss/fast">
-				<Option output="C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/MyGauss.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug"/>
+				<Option output="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/MyGauss.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Lu Thi Huong/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Lu Thi Huong/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Lu Thi Huong/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Lu Thi Huong/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGauss/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGauss/fast"/>
+					<CompileFile command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/TuanAnh/CLionProjects/MyGauss/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/LUTHIH~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/221592~1.27/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/cholesky.h">
+		<Unit filename="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/cholesky.h">
 			<Option target="MyGauss"/>
 		</Unit>
-		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/gaussGJ.h">
+		<Unit filename="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/gaussGJ.h">
 			<Option target="MyGauss"/>
 		</Unit>
-		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/jacobi.h">
+		<Unit filename="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/jacobi.h">
 			<Option target="MyGauss"/>
 		</Unit>
-		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/main.c">
+		<Unit filename="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/main.c">
 			<Option target="MyGauss"/>
 		</Unit>
-		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/matrix.h">
+		<Unit filename="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/matrix.h">
 			<Option target="MyGauss"/>
 		</Unit>
-		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/seidel.h">
+		<Unit filename="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/seidel.h">
 			<Option target="MyGauss"/>
 		</Unit>
-		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/singleLoop.h">
+		<Unit filename="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/singleLoop.h">
 			<Option target="MyGauss"/>
 		</Unit>
-		<Unit filename="C:/Users/TuanAnh/CLionProjects/MyGauss/CMakeLists.txt">
+		<Unit filename="C:/Users/Lu Thi Huong/CLionProjects/GTSC2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

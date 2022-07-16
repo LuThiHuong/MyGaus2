@@ -18,7 +18,7 @@
 
 void main() {
     FILE *fin;
-    fin = fopen("C:\\Users\\TuanAnh\\CLionProjects\\MyGauss\\input.txt","r");
+    fin = fopen("C:\\Users\\Lu Thi Huong\\CLionProjects\\GTSC2\\input.txt","r");
     fscanf(fin,"%d\n",&n);
 
     for (int i = 1; i <= n; ++i) {
@@ -33,8 +33,11 @@ void main() {
     inMaTranHeSo();
     printf("-=====================================================- \n");
     khuGauss(n);
+//    CholeskyDes(n);
+// jacobi(checkCheoTroi(n));
     inMaTranBoSung();
     giaiHeGauss(n);
+//    giaiHeCholesky(n);
     inNghiem();
     fclose(fin);
 }
