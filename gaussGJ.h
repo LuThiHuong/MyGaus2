@@ -21,7 +21,7 @@ void khuGauss(int n) {
 }
 
 // Hàm biến đổi ma trận bổ sung dùng thuật toán Gauss-Jordan
-void gaussJordan(int n){
+void khuGaussJordan(int n){
     bienAThanhMatranBoSung();
     float t;
     for (int i = 1; i <= n; ++i) {

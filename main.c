@@ -1,8 +1,4 @@
-/*
- * CHÚ Ý: Để dễ thao tác thì các mảng ma trận trong code này sẽ chạy từ phần tử 1
- * Do vị trí của ma trận thường bắt đầu từ phần tử [1][1]
- * Dinh Tuan Anh 20185429
- */
+
 
 #include<stdio.h>
 #include<conio.h>
@@ -32,7 +28,7 @@ void main() {
 
     inMaTranHeSo();
     printf("-=====================================================- \n");
-    khuGauss(n);
+    khuGaussJordan(n);
 //    CholeskyDes(n);
 // jacobi(checkCheoTroi(n));
     inMaTranBoSung();
